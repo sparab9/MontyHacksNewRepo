@@ -66,11 +66,11 @@ var Main = function () {
       // Create training button
       var button = document.createElement('button');
       if (i == 0) {
-        button.innerText = "Soda Can";
+        button.innerText = "Soda Can - Recyclable";
       } else if (i == 1) {
-        button.innerText = "Chip Bag";
+        button.innerText = "Chip Bag - Not Recyclable";
       } else {
-        button.innerText = "Soda Box";
+        button.innerText = "Soda Box - Recyclable";
       }
       div.appendChild(button);
 
