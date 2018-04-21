@@ -65,7 +65,13 @@ var Main = function () {
 
       // Create training button
       var button = document.createElement('button');
-      button.innerText = "Train " + i;
+      if (i == 0) {
+        button.innerText = "Soda Can";
+      } else if (i == 1) {
+        button.innerText = "Chip Bag";
+      } else {
+        button.innerText = "Soda Box";
+      }
       div.appendChild(button);
 
       // Listen for mouse events when clicking the button
