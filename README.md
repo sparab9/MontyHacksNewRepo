@@ -41,3 +41,6 @@ A quick overview of the most important function calls in the deeplearn.js [KNN I
 - `.predictClass(image)`: Runs the prediction on the image, and returns (as a Promise) the class index and confidence score. 
 
 See the full implementation [here](https://github.com/PAIR-code/deeplearnjs/blob/master/models/knn_image_classifier/knn_image_classifier.ts)
+
+hello
+
